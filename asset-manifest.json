@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dimbirazantsoa.github.io/static/css/main.049e0362.css",
+    "main.js": "/dimbirazantsoa.github.io/static/js/main.1b79cf99.js",
+    "static/js/787.feae3626.chunk.js": "/dimbirazantsoa.github.io/static/js/787.feae3626.chunk.js",
+    "index.html": "/dimbirazantsoa.github.io/index.html",
+    "main.049e0362.css.map": "/dimbirazantsoa.github.io/static/css/main.049e0362.css.map",
+    "main.1b79cf99.js.map": "/dimbirazantsoa.github.io/static/js/main.1b79cf99.js.map",
+    "787.feae3626.chunk.js.map": "/dimbirazantsoa.github.io/static/js/787.feae3626.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049e0362.css",
+    "static/js/main.1b79cf99.js"
+  ]
+}
