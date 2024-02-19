@@ -28,7 +28,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/projects">Projects</Link>
+								<Link to="/projects" onClick={ (event) => event.preventDefault() }>Projects</Link>
 							</li>
 							<li
 								className={
@@ -37,7 +37,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/contact">Contact</Link>
+								<Link to="/contact" onClick={ (event) => event.preventDefault() }>Contact</Link>
 							</li>
 						</ul>
 					</div>

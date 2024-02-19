@@ -7,7 +7,8 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "./styles/article.css";
 
 const Article = (props) => {
-	const { title, description, date, link } = props;
+	const { title, description, date, link, tags = [] } = props;
+	const descriptionInnerHTML = {__html: description}
 
 	return (
 		<React.Fragment>
@@ -17,17 +18,13 @@ const Article = (props) => {
 						|&nbsp;&nbsp;&nbsp;{date}
 					</div>
 					<div className="homepage-article-title">{title}</div>
-					<div className="homepage-article-description">
-						{description}
-					</div>
-					<div className="homepage-article-link">
-						<Link to={link}>
-							Read article{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</Link>
+					<div className="homepage-article-description" dangerouslySetInnerHTML={descriptionInnerHTML}></div>
+					<div className="tags">
+						<ul className="tags">
+							{
+								tags.map((tag, index) => (<li key={index}><span>{tag}</span></li>))
+							}
+						</ul>
 					</div>
 				</div>
 			</div>

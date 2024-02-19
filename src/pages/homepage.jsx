@@ -157,9 +157,9 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						<div className="homepage-projects">
+						{/* <div className="homepage-projects">
 							<AllProjects />
-						</div>
+						</div> */}
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
@@ -174,14 +174,15 @@ const Homepage = () => {
 											title={article().title}
 											description={article().description}
 											link={"/article/" + (index + 1)}
+											tags={article().tags}
 										/>
 									</div>
 								))}
 							</div>
 
-							<div className="homepage-works">
+							{/* <div className="homepage-works">
 								<Works />
-							</div>
+							</div> */}
 						</div>
 
 						<div className="page-footer">

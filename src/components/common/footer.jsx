@@ -13,17 +13,17 @@ const Footer = () => {
 							<Link to="/">Home</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/projects">Projects</Link>
+							<Link to="/projects" onClick={ (event) => event.preventDefault() }>Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
+							<Link to="/contact" onClick={ (event) => event.preventDefault() }>Contact</Link>
 						</li>
 					</ul>
 				</div>
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						© 2024 Ntsoa Dimbiraza. All Rights Reserved.
 					</div>
 				</div>
 			</div>
