@@ -9,6 +9,9 @@ const INFO = {
 		github: "https://github.com/dimbirazantsoa",
 		linkedin: "https://www.linkedin.com/in/dimbirazantsoa"
 	},
+	export: {
+		url: "Ntsoa Dimbiraza - Senior Developer (PHP _ Symfony).pdf"
+	},
 	homepage: {
 		title: "Ntsoa Dimbiraza 🇲🇬 🎉",
 		description: "Cumulant 5 années d'expériences en tant que développeur web, je me distingue par ma maîtrise approfondie des technologies PHP / Symfony (toutes versions), façonnant des solutions web alliant expertise technique et innovation constante.",

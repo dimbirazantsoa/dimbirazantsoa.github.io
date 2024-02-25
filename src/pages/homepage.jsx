@@ -4,12 +4,10 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -116,16 +114,6 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
@@ -144,6 +132,27 @@ const Homepage = () => {
 									icon={faMailBulk}
 									className="homepage-social-icon"
 								/>
+							</a>
+							<a
+								href={INFO.socials.github}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faGithub}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.export.url}
+								target="_blank"
+								rel="noreferrer"
+								className="download-cv"
+							>
+								<FontAwesomeIcon
+									icon={faFilePdf}
+									className="homepage-social-icon"
+								/> Télécharger le CV
 							</a>
 						</div>
 
