@@ -1,6 +1,6 @@
 import React from "react";
 
-function article_4() {
+function article_5() {
 	return {
 		date: "Déc 2018 - Fév 2019",
 		title: "Consultant - Développeur Backend Symfony",
@@ -19,7 +19,7 @@ function article_4() {
 	};
 }
 
-function article_3() {
+function article_4() {
 	return {
 		date: "Mars 2020 - Fév 2022",
 		title: "Ticketing app - Développeur Symfony (+ VueJs)",
@@ -31,9 +31,13 @@ function article_3() {
 			'PHP 7.2 / 8.0',
 			'Symfony 4.4 / Symfony 5.3',
 			'Api Platform 2.6',
+			'WebSocket',
+			'XMPP / Ejabberd',
+			'Sentry',
 			'Nginx',
 			'Jenkins',
 			'Gitlab',
+			'Gitlab feature flag',
 		],
 		style: `
 				.article-content {
@@ -63,22 +67,40 @@ function article_3() {
 }
 
 
+function article_3() {
+	return {
+		date: "Nov 2021 - Janv 2022",
+		title: "Consultant - Développeur Backend Symfony",
+		description:
+				"<p>Consultant, Développeur backend PHP / Symfony. Intervention à court terme sur le projet https://courchevel.com. </p>",
+		tags: [
+			'Symfony',
+			'Api Platorm',
+		],
+	};
+}
+
+
 function article_2() {
 	return {
 		date: "Avr 2022 - Janv 2023",
 		title: "Consultant - Lead Développeur",
 		description:
-				"<p>Consultant, Lead développeur backend PHP / Symfony d'une équipe sur un projet de vente de biens immobiliers (HBS-research) par le biais d'une société basé à Madagascar</p>",
+				"<p>Consultant, Développeur backend PHP / Symfony d'une équipe sur un projet de vente de biens immobiliers (HBS-research) par le biais d'une société basé à Madagascar</p>",
 		tags: [
 			'Symfony 2.8 & 4.4',
 			'Propel',
 			'PHP 5.6 / 7.2',
+			'ReactJs',
+			'Webhooks',
+			'PHPUnit',
 			'Docker',
 			'React',
 			'REST API',
 			'MySQL',
 			'PostgreSQL',
 			'GitLab CI/CD',
+			'Gitlab feature flag',
 		],
 	};
 }
@@ -95,9 +117,12 @@ function article_1() {
 			'PHP 8.1',
 			'Symfony 6',
 			'Api Platform 3',
+			'ClamAV',
+			'Sentry',
 			'Nginx',
 			'Gitlab',
 			'Gitlab CI',
+			'Gitlab feature flag',
 		],
 		body: (
 			<React.Fragment>
@@ -107,6 +132,6 @@ function article_1() {
 	};
 }
 
-const myArticles = [article_1, article_2, article_3, article_4];
+const myArticles = [article_1, article_2, article_3, article_4, article_5];
 
 export default myArticles;
