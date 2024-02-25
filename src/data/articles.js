@@ -72,7 +72,7 @@ function article_3() {
 		date: "Nov 2021 - Janv 2022",
 		title: "Consultant - Développeur Backend Symfony",
 		description:
-				"<p>Consultant, Développeur backend PHP / Symfony. Intervention à court terme sur le projet https://courchevel.com. </p>",
+				"<p>Consultant, Développeur backend PHP / Symfony. Intervention à court terme sur le projet <a href=\"https://courchevel.com\" target=\"_blank\">Courchevel.com</a>. </p>",
 		tags: [
 			'Symfony',
 			'Api Platorm',
